@@ -1,0 +1,60 @@
+/* resets  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* body */
+body {
+  background-image: url(images/background.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+/* nav menu */
+nav ul {
+  background-color: #ffe4e1;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  position: fixed;
+  width: 100%;
+}
+
+nav ul div.left {
+  display: flex;
+  margin-right: auto;
+}
+
+nav ul div.left li {
+  padding: 1.25rem;
+}
+
+nav ul div.right {
+  display: flex;
+  margin-left: auto;
+}
+
+nav ul div.right li {
+  padding: 1.25rem;
+  transition: 0.4s;
+}
+
+nav ul div.right li a {
+  color: black;
+}
+
+nav ul div.right li:hover {
+  background-color: #4b0082;
+}
